@@ -7,7 +7,7 @@ const app = express ();
 
 const port = 1993;
 const hostname = 'localhost';
-const dbUrl = 'mongodb://localhost:27017/ZomatoClone';
+//const dbUrl = 'mongodb://localhost:27017/ZomatoClone';
 const atlasdbUrl = 'mongodb+srv://ZomatoClone_user:FxLJEm8O60zwu1bi@cluster0.vvyyv.mongodb.net/TestDB?retryWrites=true&w=majority'
 
 //CORS- cross origin resource sharing
