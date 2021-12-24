@@ -5,8 +5,8 @@ const cors = require ('cors');
 const router = require ('./Router/Index') 
 const app = express ();
 
-const port = 1993;
-const hostname = 'localhost';
+const port = process.evn.PORT || 1993;
+const hostname = 'Heroku';
 //const dbUrl = 'mongodb://localhost:27017/ZomatoClone';
 const atlasdbUrl = 'mongodb+srv://ZomatoClone_user:FxLJEm8O60zwu1bi@cluster0.vvyyv.mongodb.net/TestDB?retryWrites=true&w=majority'
 
