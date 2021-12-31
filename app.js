@@ -12,6 +12,11 @@ const atlasdbUrl = 'mongodb+srv://ZomatoClone_user:FxLJEm8O60zwu1bi@cluster0.vvy
 
 //CORS- cross origin resource sharing
 app.use (cors());
+
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  next();
+});
 //this is another middleware package besides express.json
 //when frontend and backend run on two different port nnumbers
 //and normally resources are not allowed to share hence CORS
