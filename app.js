@@ -11,7 +11,7 @@ const dbUrl = 'mongodb://localhost:27017/ZomatoClone';
 const atlasdbUrl = 'mongodb+srv://ZomatoClone_user:FxLJEm8O60zwu1bi@cluster0.vvyyv.mongodb.net/TestDB?retryWrites=true&w=majority'
 
 //CORS- cross origin resource sharing
-app.use (cors());
+//app.use (cors());
 //this is another middleware package besides express.json
 //when frontend and backend run on two different port nnumbers
 //and normally resources are not allowed to share hence CORS
