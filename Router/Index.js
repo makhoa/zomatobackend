@@ -4,7 +4,7 @@ const express = require ('express');
  
 
 const LocationsController = require ('../Controllers/Locations');
-const MealTypesController = require ('../Controllers/Mealtypes');
+const MealTypesController = require ('../Controllers/MealTypes');
 const RestaurantDataController = require ('../Controllers/RestaurantData');
 const UsersController = require ('../Controllers/Users');
 const ItemsController = require ('../Controllers/Items');
