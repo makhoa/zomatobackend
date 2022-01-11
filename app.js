@@ -30,7 +30,7 @@ mongoose.connect (atlasdbUrl, {
      useNewUrlParser: true, useUnifiedTopology: true
 })
     .then (res => {
-        app.listen (port, hostname, () => {
+        app.listen (port, () => {
             console.log (`\n Server is Successfully running at ${hostname} : ${port}\n`)
         } );
     })
